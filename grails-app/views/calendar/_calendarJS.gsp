@@ -1,0 +1,1 @@
+<script src="https://www.google.com/calendar/feeds/wosgcommunity%40gmail.com/public/basic?alt=json-in-script&callback=insertAgenda&orderby=starttime&max-results=${max}&singleevents=true&sortorder=ascending&futureevents=true" type="text/javascript"></script>
