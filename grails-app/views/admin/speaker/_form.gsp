@@ -45,6 +45,6 @@
 	<label for="presentations">
 		<g:message code="speaker.presentations.label" default="Presentations" />
 	</label>
-	<g:select name="presentations" from="${gum.Presentation.list()}" multiple="multiple" optionKey="id" size="5" value="${speakerInstance?.presentations*.id}" class="many-to-many" />
+	<g:select name="presentations" from="${com.wipro.osg.Presentation.list()}" multiple="multiple" optionKey="id" size="5" value="${speakerInstance?.presentations*.id}" class="many-to-many" />
 </div>
 
